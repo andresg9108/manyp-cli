@@ -1,1 +1,1 @@
-# manyp-cli
+# ManyP CLI #

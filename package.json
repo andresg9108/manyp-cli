@@ -1,13 +1,12 @@
 {
   "name": "manyp-cli",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.1.1",
+  "description": "This is the manyp-ag CLI.",
   "main": "./lib/index.js",
   "bin": {
-    "mpcli": "./bin/demo-global.js"
+    "mpcli": "./bin/index.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/andresg9108/manyp-cli.git"
