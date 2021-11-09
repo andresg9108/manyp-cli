@@ -1,7 +1,22 @@
 #!/usr/bin/env node
 
-const oManypCli = require('../lib/index.js');
+try{
+	const oManypCli = require('../lib/index.js');
 
-const aArgs = process.argv.splice(process.execArgv.length + 2);
+	const aArgs = process.argv.splice(process.execArgv.length + 2);
+	const sCommand = aArgs[0];
 
-oManypCli.say(JSON.stringify(aArgs));
+	switch (sCommand) {
+	  case 'create':
+	  	oManypCli.create();
+	    break;
+	  case 'help':
+	  	oManypCli.help();
+	  	break;
+	  default:
+	  	throw('The instruction "' + sCommand + '" is not recognized. Run "mpcli help" to get help.');
+	    break;
+	}
+}catch(e){
+  console.error('\nError:\n' + e + '\n');
+}
