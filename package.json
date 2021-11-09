@@ -1,0 +1,21 @@
+{
+  "name": "manyp-cli",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "bin": {
+    "mpcli": "./bin/demo-global.js"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresg9108/manyp-cli.git"
+  },
+  "author": "Andrés González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresg9108/manyp-cli/issues"
+  },
+  "homepage": "https://github.com/andresg9108/manyp-cli#readme"
+}
