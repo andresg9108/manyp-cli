@@ -7,16 +7,19 @@ try{
 	const sCommand = aArgs[0];
 
 	switch (sCommand) {
-	  case 'create':
-	  	oManypCli.create();
-	    break;
-	  case 'help':
-	  	oManypCli.help();
-	  	break;
-	  default:
-	  	throw('The instruction "' + sCommand + '" is not recognized. Run "mpcli help" to get help.');
-	    break;
+		case 'start':
+			oManypCli.start();
+			break;
+		case 'install':
+			oManypCli.install();
+			break;
+		case 'help':
+			oManypCli.help();
+			break;
+		default:
+			throw('The instruction "' + sCommand + '" is not recognized. Run "mpcli help" to get help.');
+			break;
 	}
 }catch(e){
-  console.error('\nError:\n' + e + '\n');
+	console.error('\nError:\n' + e + '\n');
 }
