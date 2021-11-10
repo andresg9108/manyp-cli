@@ -17,9 +17,9 @@ try{
 			oManypCli.help();
 			break;
 		default:
-			throw('The instruction "' + sCommand + '" is not recognized. Run "mpcli help" to get help.');
+			throw(`The instruction "${sCommand}" is not recognized. Run "manyp-cli help" to get help.`);
 			break;
 	}
 }catch(e){
-	console.error('\nError:\n' + e + '\n');
+	console.log(` Error:\n ${e}`);
 }
