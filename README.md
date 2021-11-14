@@ -1,3 +1,3 @@
 # ManyP CLI #
 
-npm i -g manyp-cli install-here
+npm i -g manyp-cli

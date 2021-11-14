@@ -1,13 +1,14 @@
 {
   "name": "manyp-cli",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "This is the manyp-ag CLI.",
   "main": "./lib/index.js",
   "bin": {
     "manyp-cli": "./bin/index.js"
   },
   "scripts": {
-    "start": "node ./bin/index.js"
+    "start": "node ./bin/index.js",
+    "preinstall": "npm i -g install-here"
   },
   "repository": {
     "type": "git",
