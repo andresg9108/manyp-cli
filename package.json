@@ -1,6 +1,6 @@
 {
   "name": "manyp-cli",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "This is the manyp-ag CLI.",
   "main": "./lib/index.js",
   "bin": {
