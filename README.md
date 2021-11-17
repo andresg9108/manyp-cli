@@ -1,3 +1,3 @@
 # ManyP CLI #
 
-npm i -g manyp-cli
+npm i manyp-cli -g

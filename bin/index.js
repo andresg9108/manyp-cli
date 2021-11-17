@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 try{
-	const oManypCli = require('../lib/index.js');
+	var oManypCli = require('../lib/index.js');
 
 	const aArgs = process.argv.splice(process.execArgv.length + 2);
 	const sCommand = aArgs[0];
@@ -12,6 +12,9 @@ try{
 			break;
 		case 'install':
 			oManypCli.install();
+			break;
+		case 'html':
+			oManypCli.html();
 			break;
 		case 'help':
 			oManypCli.help();
