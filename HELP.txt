@@ -1,0 +1,10 @@
+HELP
+
+Run "manyp-cli [command]".
+
+Command list: 
+
+- start => It makes our project aware of the changes to automatically execute the corresponding commands. In the development phase the project must always be attentive to changes and to exit you just have to use Ctrl + C.
+- install => Loads the "manyp-ag" files and directories over the current directory.
+- help => This help message.
+- -v or version => manyp-cli version.

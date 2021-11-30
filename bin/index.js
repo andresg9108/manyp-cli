@@ -19,6 +19,12 @@ try{
 		case 'help':
 			oManypCli.help();
 			break;
+		case 'version':
+			oManypCli.version();
+			break;
+		case '-v':
+			oManypCli.version();
+			break;
 		default:
 			throw(`The instruction "${sCommand}" is not recognized. Run "manyp-cli help" to get help.`);
 			break;
