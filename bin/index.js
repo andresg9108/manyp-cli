@@ -10,6 +10,9 @@ try{
 		case 'start':
 			oManypCli.start();
 			break;
+		case 'launch':
+			oManypCli.launch();
+			break;
 		case 'install':
 			oManypCli.install();
 			break;
