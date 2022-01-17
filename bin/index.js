@@ -7,25 +7,52 @@ try{
 	const sCommand = aArgs[0];
 
 	switch (sCommand) {
-		case 'start':
-			oManypCli.start();
-			break;
-		case 'launch':
-			oManypCli.launch();
+		case 'i':
+			oManypCli.install();
 			break;
 		case 'install':
 			oManypCli.install();
 			break;
+		case 'u':
+			oManypCli.update();
+			break;
+		case 'update':
+			oManypCli.update();
+			break;
+		case 's':
+			oManypCli.start();
+			break;
+		case 'start':
+			oManypCli.start();
+			break;
+		case 'sv':
+			oManypCli.server();
+			break;
+		case 'server':
+			oManypCli.server();
+			break;
+		case 'h':
+			oManypCli.html();
+			break;
 		case 'html':
 			oManypCli.html();
+			break;
+		case 'l':
+			oManypCli.launch();
+			break;
+		case 'launch':
+			oManypCli.launch();
+			break;
+		case '-h':
+			oManypCli.help();
 			break;
 		case 'help':
 			oManypCli.help();
 			break;
-		case 'version':
+		case '-v':
 			oManypCli.version();
 			break;
-		case '-v':
+		case 'version':
 			oManypCli.version();
 			break;
 		default:
