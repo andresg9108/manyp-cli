@@ -1,6 +1,6 @@
 {
   "name": "manyp-cli",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "This is the manyp-ag CLI.",
   "main": "./lib/index.js",
   "bin": {
@@ -22,8 +22,5 @@
   "homepage": "https://github.com/andresg9108/manyp-cli#readme",
   "dependencies": {
     "shelljs": "^0.8.5"
-  },
-  "config": {
-    "unsafe-perm": true
   }
 }
